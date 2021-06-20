@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://static.invisionapp-cdn.com/spa/cfprojects/common/img/favicon-16x16.2648d8282b.png" sizes="16x16" />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&display=swap">
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="https://kit.fontawesome.com/117b0fb8d8.js" crossorigin="anonymous"></script>
+    <title>Shopping Page</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div id="logo">
+                <img src="/image/logo.png" alt="logo">
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li>Home</li>
+                    <li id="line-through">Shop</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            <nav id="icons">
+                <img src="/image/search.png" alt="search">
+                <img src="/image/user.png" alt="user">
+                <img src="/image/shopping.png" alt="shopping">
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-content">
+
+            <div class="size" id="show">
+                <label class="min" for="show">Show</label>
+                <select class="select" name="show" id="show">
+                  <option value="popular">Popular</option>
+                </select>
+            </div>
+
+            <div class="size" id="price">
+                <label class="min" for="price">Price</label>
+                <select class="select" name="price" id="price">
+                  <option value="any">Any</option>
+                </select>
+            </div>
+
+            <div class="size" id="brand">
+                <label class="min" for="brand">Brand</label>
+                <select class="select" name="brand" id="brand">
+                  <option value="any">Any</option>
+                </select>
+            </div>
+
+            <div id="size">
+                <div id="label">
+                    <label for="">Size</label>
+                    <label id="color-label" for="">Size Guide</label>
+                </div>
+                <div>
+                    <button class="size-button">XS</button>
+                    <button class="size-button" id="color-button">S</button>
+                    <button class="size-button">M</button>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+
+            <div id="color">
+                <label for="color">Color</label>
+                <div>
+                    <input type="color" class="color-size-marco" name="color" value="#1B2437">
+                    <input type="color" class="color-size" name="color" value="#127681">
+                    <input type="color" class="color-size" name="color" value="#32E0C4">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+
+            <div id="controls">
+                <div class="control-espacio">
+                    <i class="fas fa-th-large"></i>
+                    <i class="fas fa-bars"></i> 
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="imagenes">
+        <div class="content-section-1">
+            <article>
+                <img class="img" src="/image/mujer.png" alt="">
+                <div class="principal">
+                    <p>Women´s costume Yves Saint Laurent</p>
+                    
+                </div>
+                <div class="secundario">
+                    <p>Fashion is something we deal with everyday. Even people who say t...</p>
+                    
+                </div>
+                <div class="precio-button">
+                    <div class="precio">
+                        <span>$1140</span>
+                    </div>
+                    <div class="button-article">
+                        <button class="button-size">Shop now</button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <img class="img" src="/image/hombre-sombrero.png" alt="">
+                <div class="principal">
+                    <p>Men´s black hat Gucci</p>
+                    
+                </div>
+                <div class="secundario">
+                    <p>The fedora hat is reimagined for Pre-Fall 2020 with a maxi embroidered lael de...</p>
+                    
+                </div>
+                <div class="precio-button">
+                    <div class="precio">
+                        <span>$540</span>
+                    </div>
+                    <div class="button-article">
+                        <button class="button-size-other">Shop now</button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <img class="img" src="/image/mujer2.png" alt="">
+                <div class="principal">
+                    <p>Dress Karl Lagerefeld</p>
+                    
+                </div>
+                <div class="secundario">
+                    <p>Another masterpiece from the legendary designer. He designed new dress dev...</p>
+                    
+                </div>
+                <div class="precio-button">
+                    <div class="precio">
+                        <span>$640</span>
+                    </div>
+                    <div class="button-article">
+                        <button class="button-size-other">Shop now</button>
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="content-section-1">
+            <article>
+                <img class="img" src="/image/hombre2.png" alt="">
+                <div class="principal">
+                    <p>Men´s black tie Valentino</p>
+                    
+                </div>
+                <div class="secundario">
+                    <p>jacquard Valentino tie with Valentino logo motif</p>
+                    
+                </div>
+                <div class="precio-button">
+                    <div class="precio">
+                        <span>$225</span>
+                    </div>
+                    <div class="button-article">
+                        <button class="button-size-other">Shop now</button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <img class="img" src="/image/hombre3.png" alt="">
+                <div class="principal">
+                    <p>Men´s jacket Off- white</p>
+                    
+                </div>
+                <div class="secundario">
+                    <p>Off-White scuffed denin jacket. Faded effect, baggy cut, pointed collar, clasp...</p>
+                    
+                </div>
+                <div class="precio-button">
+                    <div class="precio">
+                        <span>$215</span>
+                    </div>
+                    <div class="button-article">
+                        <button class="button-size-other">Shop now</button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <img class="img" src="/image/mujer3.png" alt="">
+                <div class="principal">
+                    <p>Cotton Blouse Dries van noten</p>
+                    
+                </div>
+                <div class="secundario">
+                    <p>The fedora hat is reimagined for Pre-Fall 2020 with a maxi embrodered labl de...</p>
+                    
+                </div>
+                <div class="precio-button">
+                    <div class="precio">
+                        <span>$180</span>
+                    </div>
+                    <div class="button-article">
+                        <button class="button-size-other">Shop now</button>
+                    </div>
+                </div>
+            </article>
+        
+    </div>
+    </section>
+
+    <section class="seccion-numeros">
+        <div class="row">
+            <i class="fas fa-arrow-left"></i>
+        </div>
+        <div>
+            <ul class="numeros">
+                <li class="espacio">1</li>
+                <li class="espacio">2</li>
+                <li class="espacio">3</li>
+                <li class="espacio numero-color">4</li>
+                <li class="espacio">5</li>
+                <li class="espacio">6</li>
+                <li class="espacio">7</li>
+                <li class="espacio">8</li>
+                <li class="espacio">...</li>
+                <li class="espacio">231</li>
+            </ul>
+        </div>
+        <div class="row">
+            <i class="fas fa-arrow-right"></i>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <p class="titulo">Hot links</p>
+            <ul class="list-footer">
+                <li class="espacio-footer">Home</li>
+                <li class="espacio-footer">Shop</li>
+                <li class="espacio-footer">Blog</li>
+                <li class="espacio-footer">Contact</li>
+            </ul>
+        </div>
+        <div>
+            <p class="titulo">More info</p>
+            <ul class="list-footer">
+                <li class="espacio-footer">How it work</li>
+                <li class="espacio-footer">About us</li>
+                <li class="espacio-footer">Decline rules</li>
+                <li class="espacio-footer">Terms & Conditions</li>
+            </ul>
+        </div>
+        <div>
+            <p class="titulo">Constumer care</p>
+            <ul class="list-footer">
+                <li class="espacio-footer">FAQ</li>
+                <li class="espacio-footer">Terms of use</li>
+                <li class="espacio-footer">Privacy Policy</li>
+                <li class="espacio-footer">Discount system</li>
+            </ul>
+        </div>
+        <div>
+            <p class="titulo">Get newsletter</p>
+            <ul class="list-footer">
+                <li class="espacio-footer">Get updates about style</li>
+            </ul>
+            <div class="fake-input">
+                <input class="input" type="text" placeholder="Type your email">
+                <i class="fas fa-chevron-right fake-input-button"></i>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "web-development",
+  "version": "0.0.1",
+  "description": "Material de clase Accenture, HTML5, CSS3 y JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "JavaScript"
+  ],
+  "author": "Abraham Montelongo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
