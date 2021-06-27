@@ -5,10 +5,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: ".SF NS Display";
+    background-color: #f1f1f1;
 }
 
 header {
     height: 64px;
+    background-color: white;
+    border-radius: 10px;
 }
 .header-content {
     
@@ -209,7 +212,9 @@ section div article img {
 }
 section div article {
     width: 360px;
-    height: 560px;
+    height: 500px;
+    background-color: white;
+    border-radius: 16px;
 }
 .principal, .secundario, .precio-button {
     width: 100%;
@@ -274,6 +279,7 @@ section div article {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .numeros {
     list-style: none;
@@ -300,11 +306,15 @@ section div article {
 /*------------------FIN section numeros--------------*/
 
 /*------------------footer--------------*/
+footer{
+    background-color: white;
+}
 .footer {
     margin: 20px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .titulo {
     color: #1B2437;
