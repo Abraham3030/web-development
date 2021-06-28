@@ -11,6 +11,10 @@ app.get( '/', (req, res) => {
     res.sendFile( path.resolve( __dirname, './views/index.html'));
 });
 
+app.get( '/shopping-page', (req, res) => {
+    res.sendFile( path.resolve( __dirname, './views/shopping-page.html'));
+});
+
 app.listen( PORT, () => {
     console.log('Servidor corriendo en el puerto: ', PORT);
 });
